@@ -1,0 +1,129 @@
+#tot{
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: darkmagenta;
+}
+
+#login{
+    height: 100px;
+    width: 150px;
+    background-color: #CC66CC;
+    margin-top: 5px;
+    border-radius: 15px;
+    float: right;
+}
+#antet{
+    height: 105px;
+    background-color: navajowhite;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+#sigla{
+    height: 100px;
+    width: 150px;
+    background-image: url(local.jpg);
+    background-size: 100% 100%;
+    background-color: #CC66CC;
+    margin-top: 5px;
+    border-radius: 15px;
+    float: left;
+    
+}
+#navbar{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #CC99FF;
+    margin-top: 5px;
+}
+
+#main{
+    margin-top: 2px;
+    height: auto;
+}
+#stanga{
+    width: 25%;
+    border: 2px solid gray;
+    float: left;
+    min-height: 450px;
+    border-radius: 5px;
+    background-image: url(apuseni2.jpg);
+    background-size: 100% 100%;
+    background-color: #9933CC;
+}
+
+#dreapta{
+    border: 2px solid gray;
+    height:1020px;
+    border-radius: 5px;
+    background-color: #9966FF;
+}
+
+#subsol{
+    height: 50px;
+    margin-top: 5px;
+    background-color: #FF99CC;
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+ul li{
+    float: left;
+    width: 190px;
+    height: 50px;
+    opacity: .9;
+    background: #CCCCFF;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+    border-radius: 10px;
+}
+
+ul li a:hover{
+    background-color: #FF99FF;
+	 border-radius: 10px;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+#imag{
+    width: 15px;
+    height: 25px;
+}
+
+#chatt{
+    float: right; 
+}
+
+#titlu{
+    color: black;
+    font-size: 50px;
+    font-style:italic;
+    text-align: center;
+    
+}
+text{
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 100px;
+}
+

@@ -1,0 +1,92 @@
+#tot{
+    border: 2px solid gray; padding: 10px; 
+}
+#antet{
+    height: 105px;
+    background-image: url(back.jpg);
+    background-repeat: repeat-x;
+    border: 2px solid gray; 
+    border-radius: 10px;
+    padding: 5px;
+}
+#navbar{
+    height: 50px;
+    border-radius: 10px;
+    background-color: darkcyan;
+    margin-top: 5px;
+}
+#sigla{
+    height: 100px; 
+    width: 150px; 
+    background-color: darkgreen;
+    border-radius: 15px;
+    float:left;
+}
+
+#login{
+    height: 100px; 
+    width: 150px; 
+    background-color: deepskyblue;
+    border-radius: 15px;
+    float: right;
+}
+#main{
+margin-top: 2px;    
+}
+#stanga{
+    width: 25%; 
+    border: 2px solid gray;
+    float:left;
+    min-height: 300px;
+    border-radius: 5px;
+}
+#dreapta{
+    border: 2px solid gray;
+    min-height: 300px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+#subsol{
+    height: 100px;
+    background-color:aquamarine;
+    margin-top: 5px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+   
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+ul li{
+    float: left;
+    width: 190px;
+    height: 40px;
+    opacity: .9;
+    background: black;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+ul li a:hover{
+    background-color: green;
+	 border-radius: 10px;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+
+
+
+
